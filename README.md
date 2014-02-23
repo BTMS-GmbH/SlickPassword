@@ -24,6 +24,7 @@ echo $slickPassword->generateDE (16, 1, 1). " ";
 // DE Password, optimized for IOS, total lenght 16 signs. 3 Numbers and 4 special characters
 echo $slickPassword->generateDEiOS (16, 3, 4). " ";
 
+
 Prerequisites
 -------------
 PHP 5.3
