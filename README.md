@@ -13,7 +13,7 @@ The three groups of signs (string, number, special characters) are permuted rand
 
 Example
 =======
-
+```php
 $slickPassword = new phpshaper\slickauth\SlickPassword();
 // US Password, total lenght 16 signs. 3 Numbers and 3 special characters
 echo $slickPassword->generateUS (16, 3, 3). " ";
@@ -24,24 +24,18 @@ echo $slickPassword->generateDE (16, 1, 1). " ";
 // DE Password, optimized for IOS, total lenght 16 signs. 3 Numbers and 4 special characters
 echo $slickPassword->generateDEiOS (16, 3, 4). " ";
 
-
 Prerequisites
 -------------
 PHP 5.3
 
-Usage
------
-
 Reference
 ---------
-Homepage: http://phpshaper.com
-
-E-Mail:   info (at) phpshaper.com
-
-GITHUB:  https://github.com/phpshaper/SlickPassword
-
-Examplepage : http://phpshaper.com/easyblog/2014/01/29/51-print-friendly-webpages-php.html
-Beispielseite: http://phpshaper.com/easyblog/2014/01/29/56-print-friendly-webpages-php-de.html
+* Homepage:http://phpshaper.com
+* Documentation:
+** englisch: http://phpshaper.com/en/en/2014/02/23/61-slickpassword-pronounceable-passwords.html
+** deutsch: http://phpshaper.com/easyblog/2014/02/23/62-slickpassword-aussprechbare-passworter.html
+* E-Mail: info (at) phpshaper.com
+* GITHUB:https://github.com/phpshaper/SlickPassword
 
 History
 =======
